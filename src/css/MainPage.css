@@ -1,0 +1,21 @@
+.react-tabs__tab-list {
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .react-tabs__tab {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .react-tabs__tab--selected {
+    background: #007bff;
+    color: white;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .react-tabs__tab-panel {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+  }
+  

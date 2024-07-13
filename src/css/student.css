@@ -1,0 +1,32 @@
+.form-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .form-1 {
+    transform: translateX(0%);
+  }
+  
+  .form-2 {
+    transform: translateX(-100%);
+  }
+  
+  .form-3 {
+    transform: translateX(-200%);
+  }
+  
+  form {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
